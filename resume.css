@@ -1,0 +1,61 @@
+/* * universal selector  */
+*{
+    margin: 0%;
+    padding:0%;
+} 
+body{
+    height: 625px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-background-size: cover;
+    background: rgb(174, 243, 70);
+}
+footer{
+text-align:center;
+} 
+#name{
+    text-align:right;
+}
+#name1{
+    text-align:left;
+}
+.first{
+    color: rgb(207, 22, 22);
+}
+.second{
+    color: rgb(22, 179, 207);
+}
+.third{
+    color: rgb(207, 22, 176);
+}
+.four{
+    font-size:14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic ;
+    font-weight:200 ;
+    font-variant:normal;
+    text-align:left;
+
+}
+.five{
+    color: beige;
+    text-shadow:2px 2px #ff0000 ;
+    text-decoration: line-through;
+}
+#flex{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+ }
+ button{
+    width:100px;
+    height:25px;
+    border:2px solid;
+    background-color: rgb(111, 177, 13);
+    border-radius:5px ;
+ }
+ 
+
+
